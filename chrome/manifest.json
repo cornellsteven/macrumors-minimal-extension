@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "MacRumors Minimal",
+    "description" : "Cleans up the display of and speeds up the loading time for macrumors.com",
+    "version": "1.7.1",
+    
+    "web_accessible_resources": [
+        "img/comment.png",
+        "img/mrlogo.gif",
+        "script.js",
+        "style.css"
+    ],
+    
+    "icons": { 
+        "128": "Icon.png" 
+    },
+    
+    "content_scripts": [ 
+        {
+            "js": [ "jquery.min.js", "script.js" ],
+            "matches": [ "http://www.macrumors.com/*", "http://macrumors.com/*", "http://page2.macrumors.com/*" ],
+            "css" : [ "style.css" ],
+            "run_at": "document_end"
+        } 
+    ],
+    
+    "permissions": [ 
+        "http://www.macrumors.com/*" 
+    ]
+}
