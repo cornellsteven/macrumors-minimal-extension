@@ -182,7 +182,11 @@ th {
 /*! Hidden elements */
 /*#header,*/
 #feature,
-#contentContainer #right {
+#contentContainer #right,
+[id^="contentAd"],
+#advertiseLink,
+#billboard_placeholder,
+#billboard_ad {
   display: none !important;
 }
 /*! Main styles */
