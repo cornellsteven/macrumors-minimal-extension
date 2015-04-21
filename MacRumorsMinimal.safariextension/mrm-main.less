@@ -364,10 +364,11 @@ body,
 #content .rounduplist .content {
     img {
         max-width: 100% !important;
-        
-        &.aligncenter {
-            margin: 30px auto !important;
-        }
+    }
+    
+    .twitter-tweet,
+    img.aligncenter {
+        margin: 30px auto !important;
     }
     
     blockquote {
@@ -384,11 +385,20 @@ body,
     }
     
     small,
-    small a {
+    small a,
+    small em,
+    small i,
+    small strong,
+    small b {
         color: @text-color !important;
         font-family: @sans-serif !important;
-        font-size: 14px !important;
+        font-size: 15px !important;
         line-height: 1.6 !important;
+    }
+    
+    small b,
+    small strong {
+        font-weight: 900 !important;
     }
     
     ol,
@@ -413,6 +423,23 @@ body,
                 background-color: @brand-red !important;
             }
         }
+    }
+    
+    .linkback,
+    .linkback a,
+    .comments,
+    .comments a {
+        color: @gray-light !important;
+        font-family: @sans-serif !important;
+        font-size: 12px !important;
+        line-height: 12px !important;
+        font-weight: 900 !important;
+        text-transform: uppercase !important;
+        letter-spacing: 1px !important;
+    }
+    
+    .linkback {
+        margin-bottom: -40px !important;
     }
 }
 
@@ -547,10 +574,6 @@ body,
             font-weight: 900 !important;
             text-transform: uppercase !important;
             letter-spacing: 1px !important;
-        }
-        
-        .linkback {
-            margin-bottom: -40px !important;
         }
         
         .footer {

@@ -409,6 +409,10 @@ body,
 #content .rounduplist .content img {
   max-width: 100% !important;
 }
+#content .article .content .twitter-tweet,
+#content .body .twitter-tweet,
+.full-article #roundup-content section > div .twitter-tweet,
+#content .rounduplist .content .twitter-tweet,
 #content .article .content img.aligncenter,
 #content .body img.aligncenter,
 .full-article #roundup-content section > div img.aligncenter,
@@ -435,11 +439,37 @@ body,
 #content .article .content small a,
 #content .body small a,
 .full-article #roundup-content section > div small a,
-#content .rounduplist .content small a {
+#content .rounduplist .content small a,
+#content .article .content small em,
+#content .body small em,
+.full-article #roundup-content section > div small em,
+#content .rounduplist .content small em,
+#content .article .content small i,
+#content .body small i,
+.full-article #roundup-content section > div small i,
+#content .rounduplist .content small i,
+#content .article .content small strong,
+#content .body small strong,
+.full-article #roundup-content section > div small strong,
+#content .rounduplist .content small strong,
+#content .article .content small b,
+#content .body small b,
+.full-article #roundup-content section > div small b,
+#content .rounduplist .content small b {
   color: #404040 !important;
   font-family: 'Lato', 'Avenir Next', 'Avenir', 'Proxima Nova', 'Helvetica Neue', 'Helvetica', sans-serif !important;
-  font-size: 14px !important;
+  font-size: 15px !important;
   line-height: 1.6 !important;
+}
+#content .article .content small b,
+#content .body small b,
+.full-article #roundup-content section > div small b,
+#content .rounduplist .content small b,
+#content .article .content small strong,
+#content .body small strong,
+.full-article #roundup-content section > div small strong,
+#content .rounduplist .content small strong {
+  font-weight: 900 !important;
 }
 #content .article .content ol,
 #content .body ol,
@@ -478,6 +508,36 @@ body,
   font-size: 17px !important;
   font-weight: 900 !important;
   background-color: #e74c3c !important;
+}
+#content .article .content .linkback,
+#content .body .linkback,
+.full-article #roundup-content section > div .linkback,
+#content .rounduplist .content .linkback,
+#content .article .content .linkback a,
+#content .body .linkback a,
+.full-article #roundup-content section > div .linkback a,
+#content .rounduplist .content .linkback a,
+#content .article .content .comments,
+#content .body .comments,
+.full-article #roundup-content section > div .comments,
+#content .rounduplist .content .comments,
+#content .article .content .comments a,
+#content .body .comments a,
+.full-article #roundup-content section > div .comments a,
+#content .rounduplist .content .comments a {
+  color: #a0a0a0 !important;
+  font-family: 'Lato', 'Avenir Next', 'Avenir', 'Proxima Nova', 'Helvetica Neue', 'Helvetica', sans-serif !important;
+  font-size: 12px !important;
+  line-height: 12px !important;
+  font-weight: 900 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+}
+#content .article .content .linkback,
+#content .body .linkback,
+.full-article #roundup-content section > div .linkback,
+#content .rounduplist .content .linkback {
+  margin-bottom: -40px !important;
 }
 #content {
   /*.article.excerpt {
@@ -670,10 +730,6 @@ body,
   font-weight: 900 !important;
   text-transform: uppercase !important;
   letter-spacing: 1px !important;
-}
-#content .article .linkback,
-#content.post .wrapper .linkback {
-  margin-bottom: -40px !important;
 }
 #content .article .footer,
 #content.post .wrapper .footer {
