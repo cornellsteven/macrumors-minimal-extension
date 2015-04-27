@@ -6,6 +6,6 @@ For more information visit [http://cornellcampbell.com/extensions/posts/2/macrum
 
 ## Downloads
 
-[Safari Extension](http://cornellcampbell.com/extensions/download/MacRumorsMinimal-1.7.1.safariextz/)
+[Safari Extension](http://cornellcampbell.com/extensions/download/MacRumorsMinimal-2.0.1.safariextz/)
 
 [Chrome Extension](https://chrome.google.com/webstore/detail/macrumors-minimal/knlichnkddfegomdakjjbcgmnkenaack)
